@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="styles.css">
+        <title>ST-2</title>
+    </head>
+    <style>
+        .navbar{
+            background-color: rgb(20, 197, 210);
+            border-radius: 20px;
+            height: 50px;
+            font-size: larger;
+            position: relative;
+            
+            
+            font-weight: bold;
+          }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            text-align: center;
+            position:fixed and top:0
+        }
+        .navbar ul{
+            overflow: auto;
+            text-align: center;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+        .album{
+            background-color:beige;
+            padding-top: 0;
+        }
+        
+    </style>
+    <body>
+        
+        <!-- Navbar
+        <header class="nav">
+        <div class="nav__container">
+            <div class="nav__left" >God Gallery</div>
+            <div class="nav__right">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html"> Home</a></li>
+                    <li class="nav__item"><a href="#form">Form</a> </li>
+                    <li class="nav__item"> <a href="#footer">About</a> </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+     Main -->
+    <!-- <div class="main">
+        <div class="main__container">
+            <div class="main__left">
+                <h1>Best Image Gallery you will ever see</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia cum eius incidunt praesentium enim, ut iusto quos! Itaque distinctio eos, sint odio deleniti illo aperiam iste! Eaque odio, repellat placeat corrupti quibusdam consectetur voluptate! Labore facilis libero alias hic, corrupti .
+                </p>
+            </div>
+            <div class="main__right">
+                <img class="main__img" src="https://images.pexels.com/photos/296649/pexels-photo-296649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#album_show">Visit Albums</a></li>
+                <li><a href="#form">Contact us</a></li>
+                <div class="search">
+                    <!-- <input type="text" name="search" id="search" placeholder="Search this website"> -->
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">CHECK IT OUT</h2>
+                <div class="down"><img class="down" src="images\down.png"></div>
+
+            </div>
+            </div>
+        </div>
+        </section>
+    
+
+    <!-- Select Album -->
+
+    <div class="album" id="album_show">
+        <div class="album__container">
+            <h1>Select Album</h1>
+            <div id="grid" class="album__grid">
+            </div>
+        </div>
+    </div>
+
+    <div class="form" id="form">
+        <div class="form__container" id="form">
+            <h1>Suggestions will be appriciated</h1>
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="email">
+            <textarea name="" id="" cols="30" rows="20" placeholder="Some suggestions"></textarea>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+
+
+    <div class="footer" id="footer">
+        <div class="footer__container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <!-- <img  src="images/logo.jpg"> -->
+                    <h1>OO</h1>
+                </div>
+            </div>
+
+            <div class="footer__right">
+                <div class="footer__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati ea incidunt et possimus corporis facilis ducimus enim rerum beatae, excepturi, eum porro, asperiores impedit voluptas ad sit error corrupti.
+                </div>
+                <div class="footer__copy">
+                    Copyright Nyes.gov.org
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+<!-- userid, id, title, body -->
